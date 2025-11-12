@@ -1,0 +1,19 @@
+
+name: hap_phase
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - fastqc=0.12.1
+  - multiqc=1.24.1
+  - cutadapt=4.4
+  - star=2.7.11b
+  - samtools=1.20
+  - bcftools=1.20
+  - bwa=0.7.17
+  - sra-tools=3.2.1
+  - gatk4=4.6.2.0
+  - pip
+  - pandas

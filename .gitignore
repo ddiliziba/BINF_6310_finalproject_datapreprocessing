@@ -1,0 +1,11 @@
+raw/
+work/
+results/
+ref/STAR_GRCh38/
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.html
+ncbi_extracted/
+ncbi_dataset.zip
