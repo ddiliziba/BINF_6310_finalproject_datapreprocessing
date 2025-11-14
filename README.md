@@ -28,3 +28,12 @@ while read -r u; do curl -L --retry 5 --retry-connrefused --retry-delay 5 -C - -
 
 ### Apple Silicon
 Use: make build PLAT=--platform=linux/amd64
+## Next step (teammate): Alignment
+1. \`make build\`
+2. Place inputs locally (not tracked by git):
+   - \`raw/NA12878_GM12878_rep1_R1.fastq.gz\`
+   - \`raw/NA12878_GM12878_rep1_R2.fastq.gz\`
+   - \`ref/GRCh38.fasta\`, \`ref/refseq.annotation.gtf\`
+3. \`make star-index\`  (if missing; set Docker memory to 16 GB if needed)
+4. \`make align\`  (produces \`work/NA12878/rna.sorted.cram\` + \`.crai\`)
+5. \`make where\` to list outputs
