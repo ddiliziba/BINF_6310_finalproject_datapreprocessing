@@ -1,7 +1,17 @@
-raw/
-work/
-results/
+
+raw/*
+work/*
+results/*
+ref/*
 ref/STAR_GRCh38/
+
+# allow empty-folder placeholders
+!raw/.keep
+!work/.keep
+!results/.keep
+!ref/.keep
+
+# common large artifacts
 *.bam
 *.bai
 *.fastq
@@ -9,3 +19,7 @@ ref/STAR_GRCh38/
 *.html
 ncbi_extracted/
 ncbi_dataset.zip
+
+# (optional) ignore local docs if you don’t want them in git
+*.pdf
+*.docx
