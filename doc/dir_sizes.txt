@@ -1,0 +1,4 @@
+# Directory sizes Fri Nov 14 09:17:00 EST 2025
+2.1M	results/rawQC
+ 14G	work/NA12878
+7.3G	ref/STAR_GRCh38
