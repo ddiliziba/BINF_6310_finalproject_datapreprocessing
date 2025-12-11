@@ -111,7 +111,7 @@ Lack of explicit phasing evaluation metrics in the original methods
 
 ## Reference
 
-Mehta, S. R., Danjou, F., Van Etten, J., Chakraborty, A., & Boot, A. (2020). Improved haplotype inference by exploiting long-range linking and allelic imbalance in RNA-seq datasets. Nature Communications, 11, 5857. https://doi.org/10.1038/s41467-020-19690-x
+Berger, E., Yorukoglu, D., Zhang, L. et al. Improved haplotype inference by exploiting long-range linking and allelic imbalance in RNA-seq datasets. Nat Commun 11, 4662 (2020). https://doi.org/10.1038/s41467-020-18320-z
 
 ## Acknowledgments
 
